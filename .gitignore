@@ -1,0 +1,29 @@
+# Игнорируем весь target
+target/*
+
+# Разрешаем пушить только папку с Allure отчетом
+!target/allure-results
+.allure/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Logs
+*.log
+
+# Mac system files
+.DS_Store
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven wrapper
+.mvn/
+
+# VS Code
+.vscode/
